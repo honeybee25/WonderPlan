@@ -2699,7 +2699,9 @@ body {
   color: #00ac00;
   font-weight: 400;
   margin-bottom: 30px; }
-
+.about .img-mons {
+  display: block;
+}
 .about .img-mons .img1, .about .img-mons .img2, .about .img-mons .img3 {
   height: 200px;
   border-radius: 10px;
@@ -4704,6 +4706,9 @@ footer .logo img{
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+  .about .img-mons {
+    display: none;
+  }
   .bg-img {
     background-position: center !important; }
   .md-mb10 {
@@ -5111,8 +5116,6 @@ footer .logo img{
       display: inline-block;
       color: #fff;
       -webkit-text-stroke: 0px #fff; } }
-  .about .img-mons {
-    display: none;
-  }
+  
 
 /* ====================== [ End Responsive ] ====================== */
