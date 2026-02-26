@@ -5111,5 +5111,8 @@ footer .logo img{
       display: inline-block;
       color: #fff;
       -webkit-text-stroke: 0px #fff; } }
+  .about .img-mons {
+    display: none;
+  }
 
 /* ====================== [ End Responsive ] ====================== */
