@@ -2699,6 +2699,9 @@ body {
   color: #00ac00;
   font-weight: 400;
   margin-bottom: 30px; }
+  a.btn-lit {
+    margin: 24px 0;
+  }
 .about .img-mons {
   display: block;
 }
