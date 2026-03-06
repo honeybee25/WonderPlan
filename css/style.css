@@ -224,7 +224,8 @@ a, span {
 
 .bg-img {
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .bg-center {
   background-position: center center; }
@@ -3465,6 +3466,11 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
   .work-carousel .content .cont {
     position: relative; }
+  .work-carousel .content .cont h6{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
     .work-carousel .content .cont h6 {
       color: #00ac00;
       font-size: 12px;
@@ -4104,7 +4110,8 @@ body {
 
 .blog-grid .item {
   padding: 25px;
-  position: relative; }
+  position: relative; 
+  height: 100%;}
   .blog-grid .item:after {
     content: '';
     position: absolute;
