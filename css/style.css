@@ -3082,10 +3082,10 @@ body {
 /* ====================== [ End services ] ====================== */
 /* ====================== [ Start brands ] ====================== */
 .clients .brands:hover img {
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  transform: scale(0);
-  opacity: 0; }
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 1; }
 
 .clients .brands:hover .link {
   opacity: 1 !important;
@@ -3177,6 +3177,10 @@ body {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s; }
+
+.partnership img{
+  max-width: 140px;
+}
 
 /* ====================== [ End brands ] ====================== */
 /* ====================== [ Start Work ] ====================== */
